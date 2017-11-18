@@ -1,0 +1,119 @@
+\begin{thebibliography}{10}
+
+\bibitem{c-olah:lstm}
+Christopher Olah.
+\newblock {Understanding LSTM Networks}.
+\newblock \url{http://colah.github.io/posts/2015-08-Understanding-LSTMs/}.
+
+\bibitem{a-kar:rnn-effectiveness}
+Andrej Karpathy.
+\newblock {The Unreasonable Effectiveness of Recurrent Neural Networks}.
+\newblock \url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}.
+
+\bibitem{malay-rnn}
+Md~Salam, Dzulkifli Mohamad, and Sheikh Salleh.
+\newblock Malay isolated speech recognition using neural network: A work in
+  finding number of hidden nodes and learning parameters.
+\newblock {\em The International Arab Journal of Information Technology}, 8,
+  2011.
+
+\bibitem{wiki:hmm}
+{Hidden Markov model. In \emph{Wikipedia}}.
+\newblock \url{https://en.wikipedia.org/wiki/Hidden_Markov_model}.
+
+\bibitem{wiki:markov}
+{Markov model. In \emph{Wikipedia}}.
+\newblock \url{https://en.wikipedia.org/wiki/Markov_model}.
+
+\bibitem{machine-learning-mastery}
+Dr.~Jason Brownlee.
+\newblock {Machine Learning Mastery Blog Series}.
+\newblock \url{http://machinelearningmastery.com/blog/}.
+
+\bibitem{avash-nepalispeech}
+Aavaas Gajurel, Anup Pokhrel, and Manish~K. Sharma.
+\newblock {Nepali Speech Recognition}, 2015.
+
+\bibitem{tanlee-isolate}
+Tan Lee.
+\newblock {\em {Automatic Recognition of Isloated Cantonese Syllables using
+  Neural Network}}.
+\newblock PhD thesis, The Chinese University of Hong Kong, Hong Kong, 1996.
+
+\bibitem{isolated-simple-rnn}
+Yaushiro Takahashi, Yukihiro Nomura, Jianming LU, Hiroo Sekiya, and Takashi
+  Yahagi.
+\newblock {Isolated Word Recognition Using Very Simple Recurrent Neural Network
+  Plus and Noise Compensation LPC Analysis}.
+\newblock Technical report, Graduate School of Science and Technology, Chiba
+  University.
+
+\bibitem{arabic-rnn}
+M.~M.~EL Choubassi, H.~E.~El Khoury, C.~E.~Jabra Alagha, J.~A. Skaf, and M.~A.
+  Al-Alaoui.
+\newblock {Arabic Speech Recognition Using Recurrent Neural Network}.
+\newblock Technical report, Electrical and Computer Engineering Department,
+  Faculty of Engineering and Architecture, American University of Beirut.
+
+\bibitem{SpectralSub:Tutorial}
+Practical Cryptography.
+\newblock {Tutorial Spectral Subtraction}.
+\newblock
+  \url{http://practicalcryptography.com/miscellaneous/machine-learning/tutorial-spectral-subraction/
+  }.
+
+\bibitem{Noise_Reduction}
+Zhixin Chen.
+\newblock Simulation of spectral subtraction based noise reduction method.
+\newblock {\em (IJACSA) International Journal of Advanced Computer Science and
+  Applications ,}, 2, 2011.
+
+\bibitem{spectral-article}
+Peddi~Srinivas Rao and Vallabhaneni Sreelatha.
+\newblock {Implementation and Evaluation of Spectral Subtraction with Minimum
+  Statistics using WOLA and FFT Modulated Filter Banks }, 2014.
+
+\bibitem{noise_reduce}
+Prof.~Andrzej Czyzewski.
+\newblock {Noisy Speech Enhancement}.
+\newblock \url{https://sound.eti.pg.gda.pl/denoise/noise.html}.
+
+\bibitem{Spec:Tutorial}
+Shunsuke Aihara.
+\newblock {Spectral Subtraction}.
+\newblock \url{ https://gist.github.com/shunsukeaihara/4602848}.
+
+\bibitem{Pydubs}
+James Robert.
+\newblock {Pydubs}.
+\newblock \url{ https://github.com/jiaaro/pydub }.
+
+\bibitem{Spectral:Demo}
+James Lyons.
+\newblock {Spectral Subtraction Demo}.
+\newblock \url{https://gist.github.com/jameslyons/554325efb2c05da15b31}.
+
+\bibitem{Numpy:Docs}
+The~Scipy Community.
+\newblock {Numpy Documentation}.
+\newblock \url{https://docs.scipy.org/doc/numpy-1.13.0/reference/}.
+
+\bibitem{j-lyons:features}
+James Lyons.
+\newblock {Mel Frequency Cepstral Coefficient (MFCC) Tutorial}.
+\newblock
+  \url{http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/}.
+
+\bibitem{feature-extraction}
+Namrata Dave.
+\newblock Feature extraction methods lpc, plp and mfcc in speech recognition.
+\newblock {\em INTERNATIONAL JOURNAL FOR ADVANCE RESEARCH IN ENGINEERING AND
+  TECHNOLOGY}, 1, 2013.
+
+\bibitem{techniques-feature}
+Urmila Shrawankar and Dr.~Vilas Thakare.
+\newblock {TECHNIQUES FOR FEATURE EXTRACTION IN SPEECH RECOGNITION SYSTEM : A
+  COMPARATIVE STUDY}.
+\newblock Technical report, SGB Amravati University, Amravati.
+
+\end{thebibliography}

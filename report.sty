@@ -1,0 +1,99 @@
+\ProvidesPackage{report}
+
+% Geometry
+\usepackage[left=3.5cm,right=2cm,top=3.5cm,bottom=2cm]{geometry}
+
+% Break paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.1em}
+%\usepackage{parskip}
+
+% Math tools
+\usepackage{mathtools}
+\usepackage{bm}   % bold symbols for vectors
+\usepackage{physics}
+\allowdisplaybreaks
+\usepackage{stmaryrd}
+
+% Fonts
+\usepackage{newtxtext,newtxmath} % Times
+%\usepackage{libertine}
+%\usepackage{libertinust1math}
+%\usepackage{fourier}
+\usepackage[scaled=0.95]{inconsolata}
+\usepackage[T1]{fontenc}
+
+% Line spacing
+% ------------
+% Options:
+%   singlespacing
+%   onehalfspacing
+\usepackage[onehalfspacing]{setspace}
+
+% Page number placement
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+% Section heading before/after spacing
+%\usepackage[explicit]{titlesec}
+%\titlespacing{\section}{0pt}{2em plus 2pt minus 2pt}{1em plus 2pt minus 2pt}
+%\titlespacing{\subsection}{0pt}{1em plus 2pt minus 2pt}{0.5em plus 2pt minus 2pt}
+%\titlespacing{\subsubsection}{0pt}{0.5em plus 2pt minus 2pt}{0.5em plus 2pt minus 2pt}
+
+% \titleformat{\section}{\bfseries\large}{\thesection.}{1em}{\MakeUppercase{#1}}
+%\titleformat{\section}{\bfseries\large}{\thesection.}{1em}{#1}
+%\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection.}{1em}{#1}
+%\titleformat{\subsubsection}{\bfseries\normalsize}{\thesubsubsection.}{1em}{#1}
+
+% Spacing before/after equations
+\AtBeginDocument{
+  \setlength\abovedisplayskip{1em plus 2pt minus 2 pt}
+  \setlength\belowdisplayskip{1em plus 2pt minus 2 pt}
+  \setlength\abovedisplayshortskip{0.5em plus 2pt minus 2 pt}
+  \setlength\belowdisplayshortskip{0.5em plus 2pt minus 2 pt}
+}
+
+% Float numbering
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\counterwithin{equation}{section}
+
+% Algorithms
+\usepackage[section]{algorithm}
+\usepackage{algorithmic}
+
+% Colors
+\usepackage[dvipsnames]{xcolor}
+
+% Compact lists
+\usepackage{mdwlist}
+\usepackage{enumitem}
+
+% Bibliography
+%\usepackage[sorting=none,style=ieee]{biblatex}
+%\addbibresource{main.bib}
+
+% Graphics
+\usepackage{graphicx,caption,subcaption}
+
+% PDF
+\usepackage{hyperref}
+\hypersetup{
+  pdftitle={INTERACTIVE VOICE RESPONSE SYSTEM WITH SPEECH RECOGNITION},
+  pdfauthor={Prabin Bhandari},
+  pdfsubject={Major Project Report},
+  %colorlinks=true,
+  %urlcolor=blue,
+  %linkcolor=black,
+}
+
+% Remove hyphenation
+\hyphenpenalty=1000

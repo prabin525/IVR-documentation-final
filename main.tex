@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt,onepage,titlepage]{article}
+\usepackage{report}
+\usepackage{enumitem}
+\usepackage{listings}
+
+\graphicspath{ {images/} }
+\begin{document}
+\setcounter{secnumdepth}{4}
+\input{sections/titlepage}
+\input{sections/approval}
+\input{sections/copyright}
+\input{sections/acknowledgements}
+\input{sections/abstract}
+
+{\setlength{\parskip}{0pt}
+  % Table of contents
+  \newpage
+  \phantomsection\addcontentsline{toc}{section}{TABLE OF CONTENTS}
+  \renewcommand{\contentsname}{TABLE OF CONTENTS}
+  \tableofcontents
+
+  % List of figures
+  \newpage
+  \phantomsection\addcontentsline{toc}{section}{LIST OF FIGURES}
+  \renewcommand{\listfigurename}{LIST OF FIGURES}
+  \listoffigures
+
+
+  % List of SYMBOLS AND ABBREVIATIONS 
+  \newpage
+  \renewcommand{\listtablename}{LIST OF SYMBOLS AND ABBREVIATIONS}
+  \input{sections/abbr}
+
+}
+
+\newpage\input{sections/introduction}
+\newpage\input{sections/literature}
+\newpage\input{sections/methodology}
+\newpage\input{sections/software}
+\newpage\input{sections/results}
+\newpage\input{sections/limitations}
+\newpage\input{sections/conclusion}
+\input{sections/references}
+
+\nocite{c-olah:lstm, a-kar:rnn-effectiveness, malay-rnn, wiki:hmm, wiki:markov, machine-learning-mastery, avash-nepalispeech, tanlee-isolate, isolated-simple-rnn, arabic-rnn, SpectralSub:Tutorial, Noise_Reduction, spectral-article, noise_reduce, Spec:Tutorial, Pydubs, Spectral:Demo,Numpy:Docs, j-lyons:features,feature-extraction,techniques-feature}
+
+\end{document}
