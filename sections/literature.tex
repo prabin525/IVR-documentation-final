@@ -38,13 +38,14 @@ the pinna. The pinna significantly modify the incoming sound, particularly at
 high frequencies, and this is important in our ability for sound localization.After 
 a sound wave arrives nearby, it passes through the peripheral auditory system, 
 the outer ear, middle ear, and inner ear.
-\begin{figure}
+\begin{figure}[h]
 	\begin{center}
 		\includegraphics[scale=0.8]{images/ear_clear.jpg}
 		\caption{Human Ear Hearing System}
 	\end{center}
-\end{figure}
+\end{figure} 
 
+\vfill
 \begin{enumerate}
 	\item The Outer Ear
 	
@@ -136,7 +137,7 @@ The preliminary requirement of the IVR system is the input voice signal from the
 
 \subsubsection{Preprocessing stage}
 The stage of the speech preprocessing refers to the purification of the input voice signal so as to feed it into main speech recognition engine in a suitable format for best outcomes.The preprocessing stage in speech recognition systems is used in order to increase the efficiency of subsequent feature extraction and classification stages and therefore to improve the overall recognition performance. Commonly the preprocessing includes the sampling step, a windowing and a de-noising step as shown in Figure below. At the end of the preprocessing the compressed and filtered speech frames are forwarded to the feature extraction stage.These processes are discussed below in brief.
-\begin{figure}
+\begin{figure} [h]
 	\begin{center}
 		\includegraphics[scale=0.8]{images/prepro.png}
 		\caption{Input speech preprocessing}
@@ -173,7 +174,7 @@ The stage of the speech preprocessing refers to the purification of the input vo
 	
 	The Noise reduction methods are classified into four classes of algorithms: Spectral Subtractive, Subspace, Statistical-model based and Wiener-type. Some popular Noise reduction algorithms are, The log minimum mean square error logMMSE (Ephraim \& Malah 1985), The traditional Wiener (Scalart \& Filho 1996), The spectral subtraction based on reduced-delay convolution (Gustafsson 2001), The exception of the logMMSE-SPU (Cohen \& Berdugo 2002), The logMMSE with speech-presence uncertainty (Cohen Berdugo 2002), The multiband spectral-subtractive (Kamath \& Loizou 2002), The generalized subspace approach (Hu \&Loizou 2003), The perceptually based subspace approach (Jabloun \& Champagne 2003), The Wiener filtering based on wavelet-thresholded multitaper spectra (Hu \& Loizou 2004), Least-Mean-Square (LMS), Adaptive noise cancellation (ANC) [3], Normalized(N) LMS, Modified(M)- NLMS, Error nonlinearity (EN)-LMS, Normalized data nonlinearity (NDN)-LMS adaptation etc. 
 	Among those many methods, one of the most simple and effective is the spectral subtraction method. It is quite popular method. Spectral Subtraction method, subtracts the estimated noise from the original signal to enhance the speech recognition. The noise is estimated from the original signal itself and subtracted to the original signal, which thus improves the Signal-to-Noise ratio (SNR). It is assumed that the signal is distorted by a wide-band, stationary, additive noise, the noise estimate is the same during the analysis and the restoration and the phase is the same in the original and restored signal.
-	\begin{figure}
+	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[scale=0.8]{images/image_2.png}
 			\caption{Noise Removal Process in input voice signal}

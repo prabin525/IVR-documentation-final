@@ -20,16 +20,16 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Sound Signal Transduction Mechanism}{10}{subsubsection.2.3.2}
 \contentsline {subsection}{\numberline {2.4}Speech Recognition System}{12}{subsection.2.4}
 \contentsline {subsubsection}{\numberline {2.4.1}Input Voice Signal}{13}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Preprocessing stage}{13}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2}Preprocessing stage}{14}{subsubsection.2.4.2}
 \contentsline {subsubsection}{\numberline {2.4.3}Feature Extraction Stage}{16}{subsubsection.2.4.3}
 \contentsline {paragraph}{\numberline {2.4.3.1}Mel Frequency Cepstral Coefficients (MFCC)}{17}{paragraph.2.4.3.1}
 \contentsline {paragraph}{\numberline {2.4.3.2}Linear Predictive Coding(LPC)}{18}{paragraph.2.4.3.2}
 \contentsline {paragraph}{\numberline {2.4.3.3}Perceptual Linear Prediction (PLP)}{18}{paragraph.2.4.3.3}
-\contentsline {subsubsection}{\numberline {2.4.4}Acoustic Model}{18}{subsubsection.2.4.4}
+\contentsline {subsubsection}{\numberline {2.4.4}Acoustic Model}{19}{subsubsection.2.4.4}
 \contentsline {paragraph}{\numberline {2.4.4.1}Hidden Markov Model}{19}{paragraph.2.4.4.1}
 \contentsline {paragraph}{\numberline {2.4.4.2}Recurrent Neural Network}{20}{paragraph.2.4.4.2}
 \contentsline {subparagraph}{LSTM RNN :}{21}{section*.20}
-\contentsline {subparagraph}{GRU :}{21}{section*.21}
+\contentsline {subparagraph}{GRU :}{22}{section*.21}
 \contentsline {subsection}{\numberline {2.5}Types of ASR system}{22}{subsection.2.5}
 \contentsline {subsubsection}{\numberline {2.5.1}On the basis of input speech signal}{22}{subsubsection.2.5.1}
 \contentsline {subsubsection}{\numberline {2.5.2}On the basis of speaker model}{23}{subsubsection.2.5.2}

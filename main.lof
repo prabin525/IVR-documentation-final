@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Input speech preprocessing\relax }}{14}{figure.caption.18}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Noise Removal Process in input voice signal\relax }}{16}{figure.caption.19}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces A Markov Chain\relax }}{19}{figure.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Structure of a Hidden Markov Model\relax }}{19}{figure.8}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Structure of a Hidden Markov Model\relax }}{20}{figure.8}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces A recurrent neural network and the unfolding in time\relax }}{20}{figure.9}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces A LSTM Block\relax }}{21}{figure.10}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces A Gated Recurrent Unit Block\relax }}{22}{figure.11}
