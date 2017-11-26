@@ -9,32 +9,33 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces A recurrent neural network and the unfolding in time\relax }}{20}{figure.9}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces A LSTM Block\relax }}{21}{figure.10}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces A Gated Recurrent Unit Block\relax }}{22}{figure.11}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Audacity Interface for sound sample recording\relax }}{25}{figure.caption.22}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Training samples generation from recorded voice\relax }}{27}{figure.caption.23}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Noise removal process in speech signal\relax }}{29}{figure.caption.24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Stages in feature extraction\relax }}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Speech signal before pre-emphasis\relax }}{31}{figure.caption.26}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Speech signal after pre-emphasis\relax }}{32}{figure.caption.27}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Mel filter Bank\relax }}{34}{figure.caption.28}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces RNN implementation\relax }}{40}{figure.caption.31}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces An Incremental Approach for Software Development\relax }}{41}{figure.caption.32}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Use Case Diagram\relax }}{45}{figure.caption.33}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Sequence Diagram\relax }}{46}{figure.caption.34}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Data Flow Diagram\relax }}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Gantt Chart for Project\relax }}{52}{figure.caption.36}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Original Sound Signal\relax }}{54}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Refined Sound Signal\relax }}{54}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Spectogram of Original Sound Signal\relax }}{55}{figure.caption.40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Spectogram of Refined Sound Signal\relax }}{55}{figure.caption.41}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Original input sound signal\relax }}{56}{figure.caption.42}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Voiced sound signal\relax }}{57}{figure.caption.43}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Log probability result for each model for a speech sample Nepali word 9\relax }}{58}{figure.caption.44}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces The result for a word speech of 1 in a RNN module\relax }}{58}{figure.caption.45}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The first GUI interface of the system\relax }}{59}{figure.caption.46}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The interface where voice input can be provided to make a selection\relax }}{59}{figure.caption.47}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces The interface after the selection has been made where there are again list of options\relax }}{60}{figure.caption.48}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Accuracy for Test Samples using HMM Module for Prediction\relax }}{60}{figure.caption.49}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces The accuracy while using Simple RNN\relax }}{61}{figure.caption.52}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces The accuracy while using LSTM RNN\relax }}{61}{figure.caption.53}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces The accuracy while using GRU RNN\relax }}{61}{figure.caption.54}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Accuracy for Various number of Hidden Units\relax }}{62}{figure.caption.56}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Outline of the project methodology \relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Audacity Interface for sound sample recording\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Training samples generation from recorded voice\relax }}{28}{figure.caption.24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Noise removal process in speech signal\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Stages in feature extraction\relax }}{32}{figure.caption.26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Speech signal before pre-emphasis\relax }}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Speech signal after pre-emphasis\relax }}{33}{figure.caption.28}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mel filter Bank\relax }}{35}{figure.caption.29}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces RNN implementation\relax }}{41}{figure.caption.32}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces An Incremental Approach for Software Development\relax }}{42}{figure.caption.33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Use Case Diagram\relax }}{46}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sequence Diagram\relax }}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Data Flow Diagram\relax }}{48}{figure.caption.36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Gantt Chart for Project\relax }}{53}{figure.caption.37}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Original Sound Signal\relax }}{55}{figure.caption.39}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Refined Sound Signal\relax }}{55}{figure.caption.40}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Spectogram of Original Sound Signal\relax }}{56}{figure.caption.41}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Spectogram of Refined Sound Signal\relax }}{56}{figure.caption.42}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Original input sound signal\relax }}{57}{figure.caption.43}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Voiced sound signal\relax }}{58}{figure.caption.44}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Log probability result for each model for a speech sample Nepali word 9\relax }}{59}{figure.caption.45}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The result for a word speech of 1 in a RNN module\relax }}{59}{figure.caption.46}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The first GUI interface of the system\relax }}{60}{figure.caption.47}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The interface where voice input can be provided to make a selection\relax }}{60}{figure.caption.48}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The interface after the selection has been made where there are again list of options\relax }}{61}{figure.caption.49}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Accuracy for Test Samples using HMM Module for Prediction\relax }}{61}{figure.caption.50}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The accuracy while using Simple RNN\relax }}{62}{figure.caption.53}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces The accuracy while using LSTM RNN\relax }}{62}{figure.caption.54}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces The accuracy while using GRU RNN\relax }}{62}{figure.caption.55}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Accuracy for Various number of Hidden Units\relax }}{63}{figure.caption.57}

@@ -2,6 +2,21 @@
 
 \section{METHODOLOGY}
 
+
+\subsection{Methodology overview}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.8]{images/methodology.png}
+		\caption{Outline of the project methodology }
+		\label{methodology}
+	\end{center}
+\end{figure}
+
+Before beginning the project work we went through several researches. Through the researches we learnt about several useful methodologies so that we can approach towards the project development phase. Going through several papers and books we selected suitable approach that fulfilled our needs as per our domain system. Figure 3.1 shows the block diagram that represents the overall outline of the project development methodology. The preliminary stage began with the collection of sample voice signal from different speakers using recording software tool called audacity. The recorded voice signal consist of external noises which were depreciated using the noice removal technique. After that from each recorded signals training data samples were generated using split module which makes the data samples suitable for feature extraction. Using those samples specific feature extraction technique is used to extract unique feature vectors. In our case we used MFCC for feature extraction purpose. The extractd features were used to train the prediction model. In our project we have used two approaches for prediction purpose which are HMM and RNN approaches respectively. The details regarding the methodology is discussed in the sections below.
+
+
+
 \subsection{Data Collection}
 For a project data is the most important part that may be of various forms such as text, audio, video etc. In our case we required the audio data
 as it deals with the recognition of voice from the user to interact with 
