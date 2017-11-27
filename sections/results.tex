@@ -268,6 +268,66 @@ Now test were run to identify the perfect number of hidden units in the layers. 
 	\end{center}
 \end{figure}
 
+The Accuracy calculated till now were based on data samples collected, the sound sample set were distributed in sets of training samples and test samples. Now, the models were tested using real live input audio. The input were given by ten different people each speaking the same number ten times giving each number a live test of 100 samples.
+
+\begin{center}
+	\begin {table}[h]
+	\begin{center}
+		
+		\begin{tabular}{ |c|c| } 
+			\hline
+			Total Number Of Speakers & 10  \\ 
+			\hline
+			Test given for a Number by each speaker & 10 times \\ 
+			\hline
+			Total Live Test for a Number & 100  \\ 
+			\hline
+		\end{tabular}
+		\caption{Test Model for Live Data}
+	\end{center}
+\end{table}
+\end{center}
+
+Then the test was carried out and the result obtained can be tabulated as
+
+\begin{center}
+	\begin {table}[h]
+	\begin{center}
+		
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			Word Spoked & Total Times spoken & Correct Prediction(HMM) & Correct Prediction(RNN)    \\ 
+			\hline
+			Nepali Zero & 100 & 57 & 74  \\
+			\hline
+			Nepali One & 100 & 62 & 78 \\
+			\hline
+			Nepali Two & 100 & 65 & 75  \\
+			\hline
+			Nepali Three & 100 & 63 & 82  \\
+			\hline
+			Nepali Four & 100 & 69 & 77  \\
+			\hline
+			Nepali Five & 100 & 55 & 69 \\
+			\hline
+			Nepali Six & 100 & 72 & 82 \\
+			\hline
+			Nepali Seven & 100 & 68 & 77 \\ 
+			\hline
+			Nepali Eight & 100 & 71 & 83  \\
+			\hline
+			Nepali Nine & 100 & 73 &  78 \\
+			\hline
+			\textbf{Total} & \textbf{1000} & \textbf{655} &  \textbf{775} \\
+			\hline
+			
+		\end{tabular}
+		\caption{Result for Test Carried out on live Data}
+	\end{center}
+\end{table}
+\end{center}
+
+From the above table, the results for live data were also similar as to the previous one. While using HMM, we got accuracy of around 65.5\% and for RNN of around 77.5\% . 
 
 
 
